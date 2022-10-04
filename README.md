@@ -12,6 +12,7 @@ This is a boilerplate for React Native / Expo projects. It includes:
 - Auth Flow Screens (SignIn, Register)
 - Custom React Native Components with Tailwind (Button, Input, Text, Container, etc.)
 - Custom React Native Hook for caching images and fonts (useCachedResources)
+- Custom Fonts (Rubik, Poppins)
 
 ## Getting Started
 
@@ -61,3 +62,9 @@ All assets are located in `src/assets`. You can add your own assets here.
 ### Libraries
 
 All libraries are located in `src/libs`. You can add your own libraries here. For example, you can add a library for Tailwind CSS here.
+
+## How to change custom fonts
+
+- Go to `src/modules/asset-cache/useCachedResources.tsx`
+
+- Add your custom fonts to the `fontAssets` function
